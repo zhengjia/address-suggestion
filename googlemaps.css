@@ -1,0 +1,11 @@
+#map{
+  width: 400px;
+  height: 400px;
+  position: absolute;
+  top: 20px;
+  right: 20px;
+} 
+
+#address-suggestion tr:hover{
+   background-color:#E6DDD5;
+}
