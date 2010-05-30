@@ -17,9 +17,9 @@ googlemaps.html shows how to use the plugin.
 You can give customized id and name for the elements`
 
 **3. In your javascript file, initialize the plugin as**
-@var api_key = 'YOUR-API-KEY'; @
-@var map = $('#map').acts_as_map_container();@
+@var api_key = 'YOUR-API-KEY';@
 //initialize the map element
+@var map = $('#map').acts_as_map_container();@
 // params:
 // container is required, which is the above map element
 // suggestion is the element which will contain the suggested address, default to #suggested
