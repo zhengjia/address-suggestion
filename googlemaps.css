@@ -6,6 +6,11 @@
   right: 20px;
 } 
 
-#suggestion tr:hover{
+tr:hover{
    background-color:#E6DDD5;
+}
+
+tr > td {
+   font-size: 12px;
+   width: 500px; 
 }
