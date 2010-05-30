@@ -1,0 +1,35 @@
+*address-suggestion is a jQuery plugin which suggests the full and accurate address based on the partial address given by users.*
+
+*Usage:*
+googlemaps.html shows how to use the plugin.
+
+*1. include the javascript files*
+@<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.2/jquery.js"></script>@
+@<script src="lib/jquery.googlemaps.js"></script> <!-- this is the plugin -->@
+@<script src="googlemaps.js"></script> <!-- this is your javascript file -->@
+@<script src="http://maps.google.com/maps?file=api&amp;v=2&amp;key=API-KEY" type="text/javascript"></script><!-- embed google maps -->@
+
+*2. On the html page, place three placeholder elements. For example*
+@<input id="address" type="text" />@
+@<div id="suggestion"></div>@
+@<div id="map"></div>@
+
+You can give customized id and name for the elements`
+
+**3. In your javascript file, initialize the plugin as**
+@var api_key = 'YOUR-API-KEY'; @
+@var map = $('#map').acts_as_map_container();@
+//initialize the map element
+// params:
+// container is required, which is the above map element
+// suggestion is the element which will contain the suggested address, default to #suggested
+// delay is the delay time for requesting google map api, default to 500ms
+@var address = $('#address').acts_as_address({
+    api_key: api_key,
+    container: map,
+    suggestion: '#suggestion', 
+    delay : 500
+});@
+
+You can customize your css. The class name for the button is jquery-googlemaps-button
+
