@@ -6,6 +6,6 @@
   right: 20px;
 } 
 
-#address-suggestion tr:hover{
+#suggestion tr:hover{
    background-color:#E6DDD5;
 }
