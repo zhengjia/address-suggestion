@@ -31,5 +31,6 @@ You can give customized id and name for the elements`
     delay : 500
 });@
 
-You can customize your css. The class name for the button is jquery-googlemaps-button
+You can customize your css. The class name for the button is jquery-googlemaps-button.
+The latitude and longitude are stored as hidden field with #latitude and #longitude
 
