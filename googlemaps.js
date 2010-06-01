@@ -1,5 +1,5 @@
 $(document).ready(function(){
-    var api_key = 'YOUR_API_KEY';
+    var api_key = 'ABQIAAAAg_OTIrIDOoYO1Y7fk1CppRSSf0CfqtNriAlWTbzT5zlBJBs6dxQSCsOE_TE1um7bZS2QhQKGx_rTJQ';
     var map = $('#map').acts_as_map_container();
     
     // params:
