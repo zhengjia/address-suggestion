@@ -5,7 +5,9 @@ address-suggestion is a jQuery plugin which suggests and autocomplete the accura
 
 Usage
 =====
-googlemaps.html shows how to use the plugin.
+
+demo.html shows an example
+--------------------------
 
 * include the javascript files
 
