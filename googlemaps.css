@@ -4,13 +4,12 @@
   position: absolute;
   top: 20px;
   right: 20px;
-} 
+}
 
 tr:hover{
-   background-color:#E6DDD5;
+  background-color: #E6DDD5;
 }
 
 tr > td {
-   font-size: 12px;
-   width: 500px; 
+  font-size: 12px;
 }
