@@ -10,6 +10,7 @@ tr:hover{
   background-color: #E6DDD5;
 }
 
-tr > td {
-  font-size: 12px;
+td {
+  font-size: 15px;
+	padding: 3px;
 }
